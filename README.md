@@ -10,17 +10,17 @@ This module is React wrapper over MSAL for Azure AD B2C. It fully supports activ
 
 If you are using npm:
 
-    npm install @kdpw/msal-b2c-react --save
+    npm install furkantanyol/msal-b2c-react --save
 
 Or if you are using yarn:
 
-    yarn add @kdpw/msal-b2c-react
+    yarn add furkantanyol/msal-b2c-react
 
 ## Initializing the Library
 
 You'll first need to load the module and pass some configuration to the library. Normally this would go in your index.js file:
 
-    import authentication from '@kdpw/msal-b2c-react';
+    import authentication from 'furkantanyol/msal-b2c-react';
 
     authentication.initialize({
         // you can user your b2clogin.com domain here, setting is optional, will default to this
